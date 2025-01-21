@@ -2,27 +2,36 @@ body{
     background-color: cadetblue;
 }
 
-div{
+main{
+    background-color: rgb(0, 0, 0);
+}
+
+div#paoDeSemente{
     display: block;
     width: 300px;
-    height: 420px;
+    height: 450px;
     background-color: gray;
     margin: 10px;
     border-radius: 10px;
     float: right;
 } 
 
-div > img{
+div#paoDeSemente > img{
     padding-left: 25px;
 }
 
 
-div h1{
+div#paoDeSemente h1{
     text-align: center;
     color: white;
 }
 
-div p {
+div#paoDeSemente p {
+    text-align: justify;
+    color: white;
+}
+
+div#textoDaPadaria{
     text-align: justify;
     color: white;
 }
