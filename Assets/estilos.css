@@ -1,0 +1,28 @@
+body{
+    background-color: cadetblue;
+}
+
+div{
+    display: block;
+    width: 300px;
+    height: 420px;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 10px;
+    float: right;
+} 
+
+div > img{
+    padding-left: 25px;
+}
+
+
+div h1{
+    text-align: center;
+    color: white;
+}
+
+div p {
+    text-align: justify;
+    color: white;
+}
