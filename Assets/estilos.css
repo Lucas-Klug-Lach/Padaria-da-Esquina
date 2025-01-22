@@ -1,16 +1,41 @@
+/*
+
+cor 1 = #C97C5D
+cor 2 = #FFC100
+cor 3 = #EDF2EF
+
+*/
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 body{
     background-color: cadetblue;
 }
 
+header{
+    background-color: #c97c5d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
 main{
-    background-color: rgb(0, 0, 0);
+    background-color: #FFC100;
 }
 
 div#paoDeSemente{
     display: block;
     width: 300px;
     height: 420px;
-    background-color: gray;
+    background-color: #a5bdaf;
     margin: 10px;
     border-radius: 10px;
     float: right;
