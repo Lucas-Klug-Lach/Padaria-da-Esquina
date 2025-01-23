@@ -6,7 +6,7 @@ cor 3 = #EDF2EF
 
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap');
 
 
 
@@ -25,16 +25,23 @@ header{
     color: white;
     padding: 10px;
     text-align: center;
+    font-family: "Playwrite IN", serif;
+
 }
 
 main{
-    background-color: #FFC100;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 80vw;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 div#paoDeSemente{
     display: block;
     width: 300px;
-    height: 420px;
+    height: 350px;
     background-color: #a5bdaf;
     margin: 10px;
     border-radius: 10px;
@@ -59,12 +66,17 @@ div#paoDeSemente p {
 div#TextoDaPadaria{
     text-align: justify;
     color: white;
+    font: bolder 13pt Arial;
+}
+
+strong{
+    margin-left: 10px;
 }
 
 div#BoloDeCenoura{
     display: block;
     width: 300px;
-    height: 440px;
+    height: 370px;
     background-color: gray;
     margin: 10px;
     border-radius: 10px;
